@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container3 {
+    /* border: 2px solid red; */
+    background-image: url(../../Images/iron.png);
+    background-position: 0%;
+    z-index: -1;
+    background-size: cover;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rang {
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #21202872;
+    width: 100%;
+
+}
+
+.left_container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.right_container3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.card_container3 {
+    /* border: 2px solid blue; */
+    width: 450px;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.card_container3 h1 {
+    font-size: 30px;
+    color: #fff;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+}
+
+.card_container3 span {
+    font-size: 20px;
+    color: rgb(255, 123, 0);
+    margin-top: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
